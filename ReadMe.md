@@ -1,4 +1,4 @@
-<h3>Jogo da velha</h3>
+<h3>Portifolio</h3>
 <div style="display: inline_block">
     <img align="center" alt="home image" height="200" width="400" src="">
 <hr>
