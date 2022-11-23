@@ -25,7 +25,7 @@ export const Projects = () => {
                             more coding to become a better developer
                         </p>
                         <Tab.Container defaultActiveKey="first" id="projects-tabs" className="mb-3">
-                            <Nav variant="pills" defaultActiveKey="/home">
+                            <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
                                     <Nav.Link eventKey="first" title="Tab One"></Nav.Link>
                                 </Nav.Item>
