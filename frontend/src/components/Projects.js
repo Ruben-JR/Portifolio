@@ -1,8 +1,11 @@
+import React from 'react';
 import Tab from 'react-bootstrap/Tab';
 import { Row, Col, Nav } from "react-bootstrap";
 import { ProjectCard } from './ProjectCard';
 import colorSharp2 from "../assets/img/color-sharp2.png"
 import agencyImmobiliere from "../assets/img/AgencyImmobiliere.png"
+import 'animate.css';
+import TrackVisibility from 'react-on-screen';
 
 export const Projects = () => {
     const projects = [
@@ -18,12 +21,18 @@ export const Projects = () => {
             <container>
                 <Row>
                     <Col>
-                        <h2>Projects</h2>
-                        <p>
-                            These projects were done with the aim of learning more
-                            and increasing my level of knowledge in IT and to practice
-                            more coding to become a better developer
-                        </p>
+                        <TrackVisibility>
+                            {({ isVisible }) =>
+                                <div className={isVisible ? "animate__animated animate__slideInUp" : " "}>
+                                    <h2>Projects</h2>
+                                    <p>
+                                        These projects were done with the aim of learning more
+                                        and increasing my level of knowledge in IT and to practice
+                                        more coding to become a better developer
+                                    </p>
+                                </div>
+                            }
+                        </TrackVisibility>
                         <Tab.Container defaultActiveKey="first" id="projects-tabs" className="mb-3">
                             <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                                 <Nav.Item>
@@ -60,6 +69,6 @@ export const Projects = () => {
                 </Row>
             </container>
             <img className="background-image-right" alt="" src={colorSharp2}></img>
-        </section>
+        </section >
     )
 }
