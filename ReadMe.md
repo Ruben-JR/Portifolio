@@ -1,6 +1,9 @@
-<h3>Portifolio</h3>
+<h3>Jogo da velha</h3>
 <div style="display: inline_block">
-    <img align="center" alt="home image" height="200" width="400" src="">
+    <img align="center" alt="Home-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330148-5abe7c0a-d9ef-492d-a582-2eaf3eb49f4a.png">
+    <img align="center" alt="Skills-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330155-9eaaaf5d-bcaf-4025-b220-a17b734b5b03.png">
+    <img align="center" alt="Projects-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330159-6dadb9f3-9350-47e9-b5d9-d5fda9bfb05c.png">
+    <img align="center" alt="Footer-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330162-5a78d2b8-936c-400a-a2cb-237b9c502ada.png">
 <hr>
 
 <h3>About the project</h3>
