@@ -1,4 +1,4 @@
-<h3>Jogo da velha</h3>
+<h3>Portifolio</h3>
 <div style="display: inline_block">
     <img align="center" alt="Home-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330148-5abe7c0a-d9ef-492d-a582-2eaf3eb49f4a.png">
     <img align="center" alt="Skills-image" height="200" width="400" src="https://user-images.githubusercontent.com/75695011/204330155-9eaaaf5d-bcaf-4025-b220-a17b734b5b03.png">
