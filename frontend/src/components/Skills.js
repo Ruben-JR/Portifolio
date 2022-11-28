@@ -1,3 +1,4 @@
+import React from 'react';
 import { Container, Row, Col } from "react-bootstrap";
 import "react-multi-carousel/lib/styles.css";
 import colorsharp from "../assets/img/color-sharp.png";
